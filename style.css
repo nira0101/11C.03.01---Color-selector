@@ -1,0 +1,15 @@
+:root {
+  --selected-color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color {
+  height: 200px;
+  width: 200px;
+  background-color: var(--selected-color);
+}
